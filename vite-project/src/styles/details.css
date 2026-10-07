@@ -1,0 +1,12 @@
+.pizza-detail-page{max-width:1280px;min-height:60vh;margin:auto;padding:34px 5vw 70px;color:var(--ink)}
+.detail-back{border:0;background:transparent;padding:8px 0;color:var(--muted);cursor:pointer;font:12px var(--sans)}
+.pizza-detail-main{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(280px,.85fr);align-items:center;gap:7%;margin-top:22px}
+.pizza-detail-image{width:100%;aspect-ratio:1.15;object-fit:cover}
+.pizza-detail-copy h1{font:500 clamp(34px,5vw,58px)/1.05 var(--serif);margin:12px 0}
+.pizza-detail-copy>p{max-width:460px;color:var(--muted);line-height:1.75}
+.detail-rating{margin:20px 0;color:#a84b31;font-size:14px}.detail-rating small{margin-left:5px;color:var(--muted)}
+.detail-price{display:block;margin:20px 0;font:500 25px var(--serif)}
+.pizza-detail-reviews{max-width:780px;margin:55px auto 0}.pizza-detail-reviews h2{font:500 28px var(--serif)}
+.pizza-detail-reviews article{padding:16px 0;border-bottom:1px solid #dedbd3}.pizza-detail-reviews article>div{display:flex;justify-content:space-between;gap:12px}.pizza-detail-reviews article>div span{color:#a84b31}.pizza-detail-reviews article p{margin:8px 0;color:var(--muted)}.pizza-detail-reviews article small{color:var(--muted)}
+.pizza-title-link{border:0;padding:0;background:transparent;color:inherit;text-align:left;font:inherit;cursor:pointer}.pizza-title-link:hover{text-decoration:underline;text-decoration-color:#a84b31;text-underline-offset:3px}
+@media(max-width:720px){.pizza-detail-page{padding:22px 5vw 50px}.pizza-detail-main{grid-template-columns:1fr;gap:25px}.pizza-detail-image{aspect-ratio:1.15}.pizza-detail-copy h1{font-size:40px}.pizza-detail-reviews{margin-top:38px}}
